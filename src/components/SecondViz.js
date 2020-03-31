@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default  class SecondViz extends Component {
+export default class SecondViz extends Component {
   render() {
     return (
       <section id="un_energy">
