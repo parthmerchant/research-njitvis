@@ -15,7 +15,7 @@ or view the live version at https://master.d2gp7frmxpzckb.amplifyapp.com/
 
 To access and run my Jupyter Notebook, change your directory through your Terminal or Command Line to the repository and then enter:
 
-### 'jupyter notebook'
+### `jupyter notebook`
 
 Once the Jupyter Notebook opens in the web browser, click 'energy_viz_notebook.ipynb'
 
