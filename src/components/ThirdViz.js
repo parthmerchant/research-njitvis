@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+// import * as d3 from 'd3';
+// import data from '../datasets/USA Energy/Energy Census and Economic Data US 2010-2014.csv';
+
 export default class ThirdViz extends Component {
   render() {
     return (
       <section id="usa_energy">
-         <div className="row">
-            <div className="three columns"></div>
-            <div className="nine columns main-col">
-               <h2>Interactive Visualization 3</h2>
-            </div>
-         </div>
+         <center>
+        <div className="test-box">
+          <h2>Energy Consumption for Different Resources in the United States</h2>
+          <h4>USA Choropleth GeoMap</h4>
+        </div>
+        </center>
       </section>
     );
   }
