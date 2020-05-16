@@ -9901,24 +9901,45 @@ const data = [
 ];
 
 export default class FourthViz extends Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {value: 'TotalC2014'};
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+ 
 
   render() {
     return (
       <section id="usa_economy">
           <center>
         <div className="test-box">
-          <h2>Correlations between Energy-related and Non-energy-related Attributes</h2>
-          <h4>Interactive Scatterplot</h4>
+          <h2>Correlations between Energy-related attributes and Gross Domestic Product (2014)</h2>
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="TotalC2014">2014 Total Energy Consumption</option>
+            <option value="CoalC2014">2014 Total Coal Consumption</option>
+            <option value="ElecC2014">2014 Total Electricity Consumption</option>
+            <option value="FossFuelC2014">2014 Fossil Fuel Consumption</option>
+            <option value="GeoC2014">2014 Geothermal Consumption</option>
+            <option value="HydroC2014">2014 Hydro Consumption</option>
+            <option value="NatGasC2014">2014 Natural Gas Consumption</option>
+            <option value="LPGC2014">2014 Liquid Petroleum Gas Consumption</option>
+          </select>
           <ScatterChart
             width={1200}
             height={600}
             margin={{ top: 20, right: 20, bottom: 20, left: 20,}}
           >
             <CartesianGrid />
-            <XAxis type="number" dataKey="GDP2014" name="GDP2014"/>
-            <YAxis type="number" dataKey="TotalC2014" name="TotalC2014"/>
+            <XAxis type="number" dataKey={this.state.value} name={this.state.value}/>
+            <YAxis type="number" dataKey="GDP2014" name="GDP2014"/>
             <Tooltip cursor={{ strokeDasharray: '3 3' }} />
-            <Scatter name="A school" data={data} fill="#16D830" />
+            <Scatter name="A school" data={data} fill="#27B275" />
           </ScatterChart>
         </div>
         </center>
