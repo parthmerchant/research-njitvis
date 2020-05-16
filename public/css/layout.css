@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -189,28 +185,72 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
+.test-box {
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   height: 800px;
+   padding: 20px;
+   width: 80%;
+   align-content: center;
+}
+
+#un_energy {
+   height: 950px;
+   background: rgb(243, 243, 243);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#un_energy h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+}
+#un_energy p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
 #usa_energy {
-   height: 500px;
-   background: #2B2B2B;
+   height: 950px;
+   background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 #usa_energy h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000;
    margin-bottom: 12px;
 }
 #usa_energy p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#about {
-   background: #2B2B2B;
+
+#usa_economy {
+   height: 950px;
+   background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   height: 500px;
+}
+#usa_economy h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+}
+#usa_economy p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#about {
+   background: rgb(243, 243, 243);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+   height: 950px;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -218,7 +258,7 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000;
    margin-bottom: 12px;
 }
 #about p {
