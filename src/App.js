@@ -15,7 +15,6 @@ class App extends Component {
         <Header />
         <FirstViz />
         <SecondViz />
-        <ThirdViz />
         <FourthViz />
         <LabelDiv />
         <Footer resumeData={resumeData}/>
