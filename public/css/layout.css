@@ -24,12 +24,34 @@
  .grid-column {
    float: left;
    width: 33.33%;
-   padding: 10px;
-   height: 300px; /* Should be removed. Only for demonstration */
+   padding: 5px;
+   height: 250px; /* Should be removed. Only for demonstration */
+ }
+
+ .grid-box {
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   border-radius: 6px;
+   margin: 10px;
  }
  
  /* Clear floats after the columns */
  .grid-row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .two-column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 350px; /* Should be removed. Only for demonstration */
+ }
+ 
+ /* Clear floats after the columns */
+ .two-row:after {
    content: "";
    display: table;
    clear: both;
@@ -210,14 +232,43 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   height: 650px;
+   padding: 20px;
+   width: 80%;
+   align-content: center;
+   border-radius: 6px;
+}
+
+.test-box-2 {
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
    height: 800px;
    padding: 20px;
    width: 80%;
    align-content: center;
+   border-radius: 6px;
+}
+
+#sm_energy {
+   height: 750px;
+   background: rgb(243, 243, 243);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#sm_energy h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+}
+#sm_energy p {
+   line-height: 30px;
+   color: #7A7A7A;
 }
 
 #un_energy {
-   height: 950px;
+   height: 750px;
    background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
@@ -234,7 +285,7 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
 }
 
 #usa_energy {
-   height: 950px;
+   height: 750px;
    background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
@@ -251,7 +302,7 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
 }
 
 #usa_economy {
-   height: 950px;
+   height: 750px;
    background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
@@ -266,12 +317,30 @@ ul#nav li.current a { color: rgb(147, 212, 121); }
    line-height: 30px;
    color: #7A7A7A;
 }
+
+#sm_economy {
+   height: 950px;
+   background: rgb(243, 243, 243);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#sm_economy h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+}
+#sm_economy p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
 #about {
    background: rgb(243, 243, 243);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   height: 950px;
+   height: 750px;
 }
 
 #about a, #about a:visited  { color: #fff; }
