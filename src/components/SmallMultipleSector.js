@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import data from '../data/un_energy_census.json';
+import data from '../data/energy_sector.json';
 
-export default class SecondViz extends Component {
+export default class SmallMultipleSector extends Component {
 
   render() {
     return (
-      <section id="un_energy">
+      <section id="sm_energy">
         <center>
         <div className="test-box">
-          <p className="small-multiple-grid-title">USA UN-Census Commodity Production</p>
+          <p className="small-multiple-grid-title">USA Energy Sectors (1949-2019)</p>
           <div class="grid-row">
             <div class="grid-column">
               <div class="grid-box">
-                <p className="small-multiple-title">Nuclear Production</p>
                <center>
+                <p className="small-multiple-title">Residential Sector</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -27,14 +27,14 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total nuclear production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Residential Sector" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
                </center> 
               </div>
             </div>
             <div class="grid-column">
             <div class="grid-box">
-                <p className="small-multiple-title">Heat Production</p>
+                <p className="small-multiple-title">Commercial Sector</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -47,13 +47,13 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Heat - Net production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Commercial Sector" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
               </div>
             </div>
             <div class="grid-column">
             <div class="grid-box">
-                <p className="small-multiple-title">Gas/Diesel Oil Production</p>
+            <p className="small-multiple-title">Industrial Sector</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -66,7 +66,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Gas Oil/ Diesel Oil - Production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Industrial Sector" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default class SecondViz extends Component {
           <div class="grid-row">
             <div class="grid-column">
             <div class="grid-box">
-                <p className="small-multiple-title">Geothermal Production</p>
+                <p className="small-multiple-title">Transportation Sector</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -87,13 +87,13 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total geothermal production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Transportation Sector" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
               </div>
             </div>
             <div class="grid-column">
             <div class="grid-box">
-                <p className="small-multiple-title">Hydro Production</p>
+                <p className="small-multiple-title">Electric Power Sector</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -106,13 +106,13 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total hydro production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Electric Power Sector" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
               </div>
             </div>
             <div class="grid-column">
             <div class="grid-box">
-                <p className="small-multiple-title">Liquid Petroleum Gas Production</p>
+                <p className="small-multiple-title">Total</p>
                 <AreaChart
                     width={300}
                     height={180}
@@ -125,7 +125,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Liquefied petroleum gas (LPG) - Production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumption Total" stroke="#14C43F" fill="#16D830" />
                 </AreaChart>
               </div>
             </div>
