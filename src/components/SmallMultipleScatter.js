@@ -27,7 +27,6 @@ export default class FourthViz extends Component {
         <section id="sm_economy">
             <center>
           <div className="test-box-2">
-            <p className="small-multiple-grid-title">2014 USA Energy Consumption vs GDP</p>
             <select value={this.state.value} onChange={this.handleChange}>
               <option value="TotalC2014">2014 Total Energy Consumption</option>
               <option value="CoalC2014">2014 Total Coal Consumption</option>
