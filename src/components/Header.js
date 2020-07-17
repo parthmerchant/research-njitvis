@@ -14,7 +14,6 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">The Energy Viz Project</a></li>
                <li><a className="smoothscroll" href="#about">Energy Sectors</a></li>
                <li><a className="smoothscroll" href="#un_energy">United Nations Energy Census</a></li>
-               <li><a className="smoothscroll" href="#usa_energy">USA Energy</a></li>
                <li><a className="smoothscroll" href="#usa_economy">USA Energy vs Economy</a></li>
             </ul>
          </nav>

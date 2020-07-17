@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import * as d3 from 'd3';
-import data from '../datasets/USA Energy/Energy Census and Economic Data US 2010-2014.csv';
-
-d3.csv(data).then(function(data) {
-  console.log(data);
-});
+// import * as d3 from 'd3';
+// import data from '../datasets/USA Energy/Energy Census and Economic Data US 2010-2014.csv';
 
 export default class ThirdViz extends Component {
   render() {

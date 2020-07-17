@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import About from './components/About';
 import FirstViz from './components/FirstViz';
+import SmallMultipleSector from './components/SmallMultipleSector';
 import SecondViz from './components/SecondViz'
 import ThirdViz from './components/ThirdViz';
-import ContactUs from './components/ContactUs';
+import LabelDiv from './components/LabelDiv';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import FourthViz from './components/FourthViz';
+import SmallMultipleScatter from './components/SmallMultipleScatter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData}/>
-        <FirstViz resumeData={resumeData}/>
-        <SecondViz resumeData={resumeData}/>
-        <ThirdViz resumeData={resumeData}/>
-        <ContactUs resumeData={resumeData}/>
+        <Header />
+        <About resumeData={resumeData}/>
+        <FirstViz />
+        <SmallMultipleSector />
+        <SecondViz />
+        <FourthViz />
+        <SmallMultipleScatter />
+        <LabelDiv />
         <Footer resumeData={resumeData}/>
       </div>
     );
