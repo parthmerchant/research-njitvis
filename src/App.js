@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import About from './components/About';
 import FirstViz from './components/FirstViz';
 import SmallMultipleSector from './components/SmallMultipleSector';
 import SecondViz from './components/SecondViz'
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <About resumeData={resumeData}/>
         <FirstViz />
         <SmallMultipleSector />
         <SecondViz />

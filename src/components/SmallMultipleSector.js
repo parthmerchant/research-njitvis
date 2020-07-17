@@ -27,7 +27,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Residential Sector" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Residential Sector" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
                </center> 
               </div>
@@ -47,7 +47,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Commercial Sector" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Commercial Sector" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Industrial Sector" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Industrial Sector" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Transportation Sector" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Transportation Sector" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Electric Power Sector" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumed by the Electric Power Sector" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default class SmallMultipleSector extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Primary Energy Consumption Total" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Primary Energy Consumption Total" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>

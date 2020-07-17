@@ -41,7 +41,7 @@ export default class FirstViz extends Component {
         <XAxis dataKey="Year" />
         <YAxis />
         <Tooltip />
-        <Area type="monotoneX" dataKey={this.state.value} stroke="#14C43F" fill="#16D830" />
+        <Area type="monotoneX" dataKey={this.state.value} stroke="#14C43F" fill="#78E787" />
       </AreaChart>
       </div>
         </center>

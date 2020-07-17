@@ -27,7 +27,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total nuclear production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Electricity - total nuclear production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
                </center> 
               </div>
@@ -47,7 +47,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Heat - Net production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Heat - Net production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Gas Oil/ Diesel Oil - Production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Gas Oil/ Diesel Oil - Production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total geothermal production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Electricity - total geothermal production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Electricity - total hydro production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Electricity - total hydro production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default class SecondViz extends Component {
                     <XAxis dataKey="Year" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotoneX" dataKey="Liquefied petroleum gas (LPG) - Production" stroke="#14C43F" fill="#16D830" />
+                    <Area type="monotoneX" dataKey="Liquefied petroleum gas (LPG) - Production" stroke="#14C43F" fill="#78E787" />
                 </AreaChart>
               </div>
             </div>
