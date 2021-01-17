@@ -1,4 +1,8 @@
 ## The EnergyViz Project
+-----------------------------
+### Update 
+Since the completion of this project in Spring 2020, I made a new repository with well-documented code that is more reproducible and meets the standards for academia research.
+-----------------------------
 
 NJIT Information Systems Interface and Research used for Data Visualization.
 
